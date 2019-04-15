@@ -1,5 +1,6 @@
 const SQL = require('sequelize');
 
+// Step 20 - FYI helper function to paginate data
 module.exports.paginateResults = ({
   after: cursor,
   pageSize = 20,

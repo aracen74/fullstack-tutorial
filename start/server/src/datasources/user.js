@@ -1,3 +1,5 @@
+// Step 12 add these packages to Build a Database
+// The database is to store and fetch data user data
 const { DataSource } = require('apollo-datasource');
 const isEmail = require('isemail');
 
